@@ -7,6 +7,7 @@ import { LocationPage } from "./pages/LocationPage/LocationPage"
 import { EpisodePage } from "./pages/EpisodePage/EpisodePage"
 import { Route, Routes } from "react-router"
 function App() {
+
   return (
      <div>
       <Header />

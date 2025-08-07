@@ -2,6 +2,7 @@ import logo from "../../assets/logo.png"
 import { NavLink } from "react-router"
 import s from "../Header.module.css"
 export const Header = () => {
+
     return (
         <div className={s.container}>
             <NavLink to={"/"}>
