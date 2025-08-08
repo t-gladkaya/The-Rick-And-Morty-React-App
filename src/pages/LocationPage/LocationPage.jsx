@@ -1,7 +1,6 @@
 import s from "./LocationPage.module.css"
 import { useEffect, useState } from "react"
 import axios  from "axios"
-import { Link } from "react-router"
 export const LocationPage = () => { 
     const [locations, setLocations] = useState([])
 
